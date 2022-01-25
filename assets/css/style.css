@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: grid;
+    height: 80vh;
+    width: 60%;
+    margin: 5em auto;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    gap:10px
+}
+
+img{
+    height: 100%;
+    width: 100%;
+
+}
+
+img:hover{
+    box-shadow: 5px 5px 10px gray;
+}
